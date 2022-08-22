@@ -6,6 +6,6 @@ numbers = '1234567890'
 symbols = '~!@#$%^&*()_+-={}[]:";,./<>?'
 
 all = lower + upper + numbers + symbols 
-lenght = int(input('Enter your password lenght: '))
-password = "".join(random.sample(all, lenght))
+length = int(input('Enter your password length: '))
+password = "".join(random.sample(all, length))
 print(password)
