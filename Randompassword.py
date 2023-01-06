@@ -1,4 +1,4 @@
-#Code for Random Password
+
 import random 
 
 lower = 'qwertyuiopasdfghjklzxcvbnm'
